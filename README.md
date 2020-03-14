@@ -32,7 +32,7 @@ kubectl create -f rbac.yml
 
 ## Test the service
 
-*Don't forget* that services in Kubernetes are only accessible from containers in the cluster. For different behavior you should [configure the creation of an external load-balancer](https://kubernetes.io/docs/concepts/services-networking/service/#type-loadbalancer)
+*Don't forget* that services in Kubernetes are only accessible from containers in the cluster. For different behavior you should [configure the creation of an external load-balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer)
 
 ```
 $ kubectl get svc elasticsearch
